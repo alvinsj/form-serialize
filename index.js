@@ -257,4 +257,7 @@ function str_serialize(result, key, value) {
     return result + (result ? '&' : '') + encodeURIComponent(key) + '=' + value;
 }
 
+serialize.hash_serializer = hash_serializer;
+serialize.str_serializer = str_serialize;
+
 module.exports = serialize;
