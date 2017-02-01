@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-- '5'
+  - '6'
+script: npm run test-ci
 env:
   global:
   - secure: QHQz/F+IvYyRkgrVEEc3NTsfkJwXlzsU8jACVIPbhHVOaaDe97b/tk0A4vv+eo+BXVNhyio7ojLlOnlcY0eiHKc31frf/Rv4nARzdG+EmzRuBtpxsnchQ92RzKhL+hL57p0LLvTW3yPAJX44lTnI8WrbvuUA22rphm0YsD1yaLM=
