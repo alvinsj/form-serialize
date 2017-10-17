@@ -259,5 +259,7 @@ function str_serialize(result, key, value) {
 
 serialize.hash_serializer = hash_serializer;
 serialize.str_serializer = str_serialize;
+serialize.hash_assign = hash_assign;
+serialize.parse_keys = parse_keys;
 
 module.exports = serialize;
